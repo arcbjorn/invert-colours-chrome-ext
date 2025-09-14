@@ -1,0 +1,20 @@
+{
+  "name": "invert-colours-chrome-ext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.0",
+  "devDependencies": {
+    "@types/chrome": "^0.1.11",
+    "esbuild": "^0.25.9",
+    "typescript": "^5.9.2"
+  }
+}
